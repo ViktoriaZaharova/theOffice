@@ -1,0 +1,944 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1920px)
+  .wrapper
+    width: 100%
+
+  header .container
+    width: 100%
+
+@media screen and (max-width: 1830px)
+  .grid-item--width2
+    width: 65%
+    height: auto
+
+  .grid-item-width1
+    width: 30%
+    height: auto
+
+  .grid-item--width3, .grid-item--width5, .grid-item--width8
+    width: 60%
+    height: auto
+
+  .grid-item--width4, .grid-item--width6, .grid-item--width9
+    width: 37%
+    height: auto
+
+  .grid-item--width7
+    height: auto
+
+  .grid-item
+    img
+      width: 100%
+
+  .small-business-page__wrapper
+    .section-page__grey
+      .container
+        padding: 0 114px 0 196px
+
+  .section-page-description .container
+    padding: 0 114px 0 196px
+
+@media screen and (max-width: 1600px)
+  .workspaces__content
+    max-height: 500px
+
+
+@media  screen and (max-width: 1430px)
+  h1, h2
+    font-size: 30px
+    line-height: 40px
+
+  .btn-accent
+    font-size: 20px
+    padding: 10px 15px
+
+  .vertical-border
+    height: 120px
+
+  .vertical-border:after
+    height: 24px
+
+  .small-business-page__wrapper .section-page__grey .events__slider
+    width: 600px
+
+  .section-page-description__content .block-left
+    max-width: 600px
+
+@media screen and (max-width: 1370px)
+  .section__wrapper, .header__menu
+    width: calc(100% - 350px)
+
+  .main.section .container .main__block
+    max-width: 300px
+    min-width: 300px
+
+  .header__menu .menu__group
+    margin: 0 20px 0 0
+
+  header
+    padding: 30px 0 0 0
+
+  .header__menu
+    .menu__group
+      li
+        margin: 0 5px
+
+  .events-page__wrapper .workspaces__content-items
+    width: auto
+
+  .events-page__wrapper .services-page__wrapper-left
+    min-width: 240px
+
+
+@media screen and (max-width: 1260px)
+  .services-page__wrapper
+    flex-direction: column
+    align-items: center
+  .services-page__wrapper-left
+    width: 100%
+    margin: 0 0 30px 0
+
+  .section
+    padding: 0
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1220px)
+  .main.section .container
+    padding: 0 20px
+
+  header .container
+    padding: 0 0 0 20px
+    box-sizing: border-box
+
+  .footer__top, .footer__bottom
+    .container
+      padding: 0 20px
+
+  .footer__top
+    padding: 40px 0 50px
+
+  .footer__bottom
+    padding: 15px 0
+
+  .footer__top
+    .container
+      .footer__top-left
+        .footer-menu
+          li
+            a
+              font-size: 18px
+      .footer__top-right
+        width: 600px
+
+  #maps
+    height: 270px
+
+  .gallery.section
+    padding: 80px 0 0 0
+    margin-bottom: 39px
+    .container
+      padding: 0 20px
+
+  .section
+    align-items: center
+    padding: 80px 0 0 0
+    height: auto !important
+    .container
+      padding: 0 20px
+
+  .section-footer
+    align-items: flex-end
+
+  .main.section
+    .container
+      .section__wrapper
+        margin: 0
+
+  .desktop-block
+    .btn-accent
+      margin: 0 0 70px 0
+
+  .section-page
+    .container
+      padding: 0 20px
+
+  .blog-text-callback
+    .container
+      padding: 160px 50px
+      .call-form
+        background: transparent
+
+  .events-page__wrapper
+    .section-page__grey, .section-page__white
+      .container
+        flex-direction: column
+        padding: 28px 20px 0
+    .services-page__wrapper-left
+      text-align: center
+
+      h3
+        max-width: none
+    .workspaces__content-items
+      width: 100%
+      justify-content: space-around
+      background: transparent
+      padding: 0
+
+  .small-business-page__wrapper .section-page__grey .container
+    padding: 0 20px
+
+  .membership-page__item
+    .container
+      padding: 40px 20px
+
+@media screen and (max-width: 1150px)
+  .main.section
+    .container
+      padding: 0 20px
+
+  .container
+    padding: 0 20px
+    box-sizing: border-box
+
+@media screen and (max-width: 960px)
+  .mobile-btn
+    display: flex
+
+  .header__menu
+    display: none
+    position: absolute
+    right: 0
+    top: 68px
+    width: 100%
+    flex-direction: column
+    .menu__group
+      flex-direction: column
+      margin: 0
+    .language-menu
+      align-items: center
+      justify-content: center
+
+  .small-business-page__wrapper
+    .section-page__grey
+      .small-business-page__wrapper-text
+        .date
+          margin: 20px 0 40px
+        h3
+          font-size: 18px
+          line-height: 24px
+
+  .small-business-page__wrapper .section-page__grey .events__slider
+    width: 500px
+
+  .section-page-description__content .block-left
+    max-width: 470px
+
+@media screen and (max-width: 900px)
+  .section
+    height: auto !important
+    padding: 100px 0 0 0
+
+  .about.section
+    .container
+      padding: 0 20px
+
+  .main.section
+    .container
+      flex-direction: column
+      padding: 0
+      .main__block
+        max-width: none
+        min-width: auto
+        padding: 0 0 0 37px
+        .btn-accent
+          margin: 50px auto
+      .section__wrapper
+        margin: 30px auto 0
+        img
+          width: 100%
+          height: auto
+
+  .events
+    .wrap
+      flex-direction: column
+      .events__content
+        order: -1
+        width: 100%
+        height: auto
+    .main__block
+      padding: 30px 0 28px
+      background-color: #f5f5f5
+      .links-all
+        padding: 0
+        border: none
+        font-family: 'ff-din-medium', sans-serif
+        text-transform: none
+
+  .main__block
+    max-width: none
+    min-width: auto
+    width: 100%
+
+  .section__wrapper
+    width: 100%
+
+  .decoration
+    display: none
+
+  .advantages__content
+    margin: 40px 0 0 0
+    padding: 0 15px
+    box-sizing: border-box
+
+  .advantages__content-item
+    width: 50%
+    margin: 0 0 45px 0
+    flex-direction: column
+    align-items: center
+    h4
+      font-size: 14px
+      text-align: center
+      line-height: 18px
+    .image
+      margin: 0 0 8px 0
+      height: 31px
+      width: auto
+      img
+        max-height: 100%
+
+  .call__content
+    width: 100%
+    margin: 40px auto 0
+    .block-line
+      span
+        background: #fff
+
+
+  .call-form
+    background-color: #f5f5f5
+    padding: 30px 40px
+    margin: 0 0 40px 0
+    .btn-accent
+      margin: 20px auto 0
+      width: 153px
+      font-size: 16px
+    label
+      width: 250px
+      margin: 0 auto
+      input
+        font-size: 16px
+
+  .desktop-block
+    display: none
+
+  body
+    background-color: #ffffff
+
+  .section-footer
+    padding: 70px 0 0 0
+
+  .footer__top
+    padding: 40px 37px 50px
+
+  .footer__bottom
+    padding: 15px 37px
+
+  .mobile-block
+    display: flex
+    flex-direction: column
+    align-items: center
+    padding: 26px 0
+    box-sizing: border-box
+    background-color: #f5f5f5
+    .btn-accent
+      width: 209px
+      margin: 0 auto 15px
+    .details-line
+      position: relative
+      transform: rotate(0deg)
+      left: 0
+      top: 0
+      padding: 0
+      font-family: 'ff-din-medium', sans-serif
+      &:before
+        display: none
+      .fa
+        transform: rotate(90deg)
+
+  header .container
+    padding: 0 30px
+
+  .workspaces, .events, .advantages, .call
+    h2
+      margin: 0 37px 27px
+
+  .workspaces__content-items
+    background-image: linear-gradient(180deg, #ffffff 0%, #f5f5f5 100%)
+    padding: 0 37px
+
+  .section .container
+    padding: 0
+
+  .workspaces__content .btn-accent
+    max-width: none
+
+  .btn-accent
+    max-width: 216px
+
+  .footer__top .container .footer__top-right
+    width: 550px
+    
+  .benzer-makaleler h3 span
+    background: #ffffff
+
+  .form-wrapper__content
+    .title
+      font-size: 18px
+      line-height: 30px
+    .btn-accent
+      font-size: 16px
+      padding: 7px 40px
+    label
+      width: 250px
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+  .footer__top
+    .container
+      flex-direction: column
+      .footer__top-left
+        width: 100%
+        margin: 0 0 20px 0
+        .footer-menu
+          display: flex
+          flex-direction: row
+          justify-content: space-between
+          align-items: center
+          flex-wrap: wrap
+          li
+            margin: 0 0 5px 0
+            a
+              font-size: 15px
+          &:first-child
+            li:last-child
+              a
+                padding: 0
+                border: none
+                margin: 0
+          &:last-child
+            justify-content: space-around
+            padding: 10px 0 0 0
+            margin: 10px 0 0 0
+            border:
+              top: 1px solid #7d7d7d
+      .footer__top-right
+        width: 100%
+
+  .services-page__wrapper-left
+    display: none
+
+  .events-page__wrapper
+    .services-page__wrapper-left
+      display: block
+      .fa
+        display: none
+
+  .services-page__wrapper-right
+    width: 100%
+
+  .tabs__content.active
+    padding: 35px 70px
+
+  .grid
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    flex-wrap: wrap
+    .grid-item--width7
+      width: 100%
+      height: auto
+      order: 1
+      border-radius: 7px
+
+  .grid-item--width4, .grid-item--width6, .grid-item--width3, .grid-item--width9, .grid-item--width5, .grid-item--width8, .grid-item--width2, .grid-item-width1
+    border-radius: 7px
+    width: 47%
+    display: flex
+    align-items: center
+    justify-content: center
+
+  .about
+    .container
+      h2
+        display: none
+
+  .about__wrapper
+    margin-top: 40px
+    flex-direction: column
+    align-items: flex-start
+    .about__wrapper-text
+      width: 100%
+      margin-bottom: 18px
+      order: -2
+
+
+  .about.section
+    padding: 50px 0 0 0
+    .about__wrapper
+      margin: 0
+
+  .about.section-page
+    padding: 0
+
+  .about-community .text h4
+    font-size: 14px
+    line-height: 20px
+
+  .about-community
+    .about-community__callback
+      .container
+        padding: 32px 60px 50px
+        h3
+          font-size: 18px
+          line-height: 30px
+
+  .about-special.section
+    padding: 50px 0 0 50px
+
+  .about__wrapper .about__wrapper-image
+    width: 100%
+
+  .section-page__wrapper
+    .workspaces__content-item
+      .image
+        height: 129px
+      .item__wrapper
+        h3
+          font-size: 14px
+        .text
+          font-size: 14px
+        .btn
+          text-transform: none
+          border-bottom: 1px solid $accent
+
+  .blog-banner
+    h3
+      font-size: 21px
+
+  .blog-text-description
+    margin-top: 30px
+    p
+      font-size: 14px
+      line-height: 21px
+      margin-bottom: 20px
+      letter-spacing: .35px
+
+  .blog-text-callback
+    .container
+      padding: 140px 20px
+      h3
+        font-size: 18px
+        line-height: 28px
+        margin-bottom: 83px
+      .call-form
+        padding: 0
+        margin: 0
+
+  .small-business-page__wrapper
+    .section-page__grey
+      background: #fff
+      .container
+        flex-direction: column
+        align-items: center
+        padding: 0
+      .events__slider
+        width: 100%
+      .small-business-page__wrapper-text
+        width: 100%
+        padding: 30px 20px 0
+        margin: 0
+        max-width: none
+        text-align: center
+        h3
+          text-align: center
+          margin: 0 auto
+          font-family: 'ff-din-medium', sans-serif
+        ul
+          display: none
+        .date
+          display: none
+
+  .section-page-description
+    margin: 0
+    .container
+      flex-direction: column
+      .section-page-description__content
+        flex-direction: column
+        h2
+          font-size: 18px
+          line-height: 29px
+          margin-bottom: 15px
+        .block-left
+          max-width: none
+          p
+            font-size: 14px
+            margin-bottom: 20px
+          h6
+            margin: 30px 0 15px
+        .block-right
+          width: 100%
+          order: -2
+          padding: 20px 0
+          border:
+            top: 2px solid #d1d1d1
+            bottom: 2px solid #d1d1d1
+          margin-bottom: 30px
+          ul
+            margin-bottom: 7px
+            li
+              font-size: 14px
+              margin-bottom: 5px
+
+  .list-number, .list-dots
+    padding-left: 30px
+
+  .contacts-up .btn-close
+    left: -50px
+
+  .contacts-up__wrapper
+    width: 270px
+    padding: 20px 30px
+    h3
+      font-size: 20px
+    .maps
+      height: 250px
+    .line
+      flex-direction: column
+      align-items: flex-start
+      .copy
+        margin-bottom: 10px
+      .btn-close
+        left: auto
+        position: absolute
+        right: 20px
+        top: 20px
+    .line-address
+      margin-top: 0
+      flex-direction: column
+      align-items: flex-start
+      .item
+        margin-bottom: 10px
+
+  .membership-page__item
+    .text
+      max-width: none
+      margin-bottom: 37px
+    .btn
+      float: left
+
+  .form-wrapper__content
+    max-width: 350px
+    width: 100%
+
+
+  .form-wrapper .container
+    padding: 0
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 580px)
+  h1, h2
+    padding: 0 0 0 12px
+    max-width: 142px
+    font-size: 21px
+    line-height: 29px
+
+  .section
+    padding: 65px 0 0 0
+
+  .call-form label
+    height: 41px
+    input
+      font-size: 14px
+
+  footer
+    padding: 34px 40px
+    box-sizing: border-box
+
+  .footer__bottom
+    padding: 32px 0 0 0
+    border: none
+    position: relative
+    &:before
+      content: ''
+      position: absolute
+      left: 0
+      top: 0
+      width: 99px
+      height: 2px
+      background: #707070
+
+  .language
+    display: none
+
+  .footer__top
+    padding: 0
+    .container
+      .footer__top-left
+        .footer-menu
+          flex-direction: column
+          align-items: flex-start
+          li
+            margin: 0 0 30px 0
+            &:last-child
+              margin-bottom: 20px
+            a
+              font-size: 21px
+          &:last-child
+            margin: 0
+            padding: 23px 0 0 0
+            border: none
+            position: relative
+            &:before, &:after
+              content: ''
+              position: absolute
+              left: 0
+              width: 99px
+              height: 2px
+              background: #707070
+            &:before
+              top: 0
+            &:after
+              bottom: 0
+  .line-address
+    .item
+      margin: 0 0 15px 0
+      &:last-child
+        margin: 0 0 32px 0
+
+  .logo
+    width: 150px
+
+  .events__slider
+    .carousel-item
+      .text
+        height: auto
+        padding: 10px
+        box-sizing: border-box
+        flex-wrap: wrap
+        font-size: 12px
+
+
+
+  //.owl-nav
+  //  .owl-prev, .owl-next
+  //    top: 30%
+  //    .fa
+  //      font-size: 30px
+
+  .workspaces__content
+    max-height: none
+    overflow: auto
+    .workspaces__content-items
+      flex-direction: column
+      align-items: center
+    .btn-accent
+      display: none
+
+  .workspaces__content-item
+    margin-bottom: 39px
+    &:last-child
+      margin-bottom: 20px
+
+  .btn-accent
+    font-size: 16px
+
+  .vertical-border
+    display: none
+
+  header
+    padding: 20px 0 0 0
+
+  #maps
+    display: none
+
+  .section-page
+    padding: 70px 0 0 0
+
+  .tabs
+    flex-direction: column
+    -webkit-background-size: cover
+    background-size: cover
+
+  .tabs__caption
+    flex-direction: row
+    li
+      border:
+        bottom: none
+        right: 1px solid #7d7d7d
+      flex: 1
+
+  .tabs__content.active
+    padding: 20px 30px
+
+  .grid-item--width4, .grid-item--width6, .grid-item--width3, .grid-item--width9, .grid-item--width5, .grid-item--width8, .grid-item--width2, .grid-item-width1
+    height: 150px
+    position: relative
+    img
+      position: absolute
+      left: 0
+      top: 0
+      width: 100%
+      height: 100%
+
+  .section-page__wrapper
+    flex-direction: column
+    align-items: center
+    .workspaces__content-item
+      width: 100%
+
+  .comment-wrapper__form
+    padding: 15px
+
+  .comment-wrapper__comment
+    padding: 0
+    margin-top: 40px
+
+  .benzer-makaleler.mobile-visible
+    display: flex
+    .workspaces__content-item
+      width: 100%
+      h3
+        text-align: left
+        font-size: 14px
+        line-height: 20px
+        &:before
+          display: none
+    .benzer-makaleler__content
+      flex-direction: column
+      align-items: center
+
+  .mobile-visible
+    display: flex
+
+  .benzer-makaleler
+    display: none
+
+  .section-page-description.section-page
+    padding: 0
+
+  .membership-page__item
+    max-height: none
+    .container
+      padding: 30px 37px
+    h3
+      font-size: 18px
+      line-height: 30px
+      margin-bottom: 15px
+
+  .membership-page__item.active
+    min-height: 570px
+
+
+  .form-wrapper__content
+    max-width: 300px
+    min-height: 200px
+
+  .form-wrapper__content .title
+    font-size: 15px
+
+  .slide-counter
+    bottom: 10px
+
+  .form__slider .block-succes
+    width: 299px
+    font-size: 16px
+    height: 40px
+
+@media screen and (max-width: 520px)
+  .events-page__wrapper
+    .services-page__wrapper-left
+      h3
+        font-size: 18px
+        line-height: 24px
+    .workspaces__content-items
+      flex-direction: column
+      align-items: center
+      .workspaces__content-item
+        width: 100%
+        height: auto
+        margin-bottom: 30px !important
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 450px)
+  .footer__bottom
+    .container
+      flex-direction: column
+      align-items: center
+      .language
+        order: -1
+        margin: 0 0 20px 0
+
+  .workspaces__content-item
+    width: 100%
+    height: 318px
+
+  .tabs__caption
+    flex-direction: column
+    li
+      width: 100%
+      position: relative
+      height: 50px
+      border:
+        bottom: 1px solid #7d7d7d
+        right: none
+      &:before
+        content: '\f107'
+        position: absolute
+        right: 10px
+        bottom: 15px
+        color: #ffffff
+        font-family: 'fontawesome', sans-serif
+        font-size: 20px
+        transition: .3s ease
+    .active
+      &:before
+        transform: rotate(180deg)
+
+  .grid-item--width4, .grid-item--width6, .grid-item--width3, .grid-item--width9, .grid-item--width5, .grid-item--width8, .grid-item--width2, .grid-item-width1
+    height: 120px
+
+  .grid .grid-item--width7
+    margin-bottom: 0
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+  /**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+  /**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+  /**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+  /**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+  /**/
+
